@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen2.Views.viewCrearHabitacion">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Numero de habitacion" ></Label>
+            <Entry Text=""  Keyboard="Numeric" ></Entry>
+            <Label Text="Piso"></Label>
+            <Entry Text=""  Keyboard="Numeric" ></Entry>
+            <Label Text="Cantidad de Cuartos"></Label>
+            <Entry Text=""  Keyboard="Numeric" ></Entry>
+            <Label Text="Tipo de habitacion"></Label>
+            <RadioButton Content="VIP" />
+            <RadioButton Content="Cabanias" />
+            <Label Text="Precio de Renta"></Label>
+            <Entry Text=""  ></Entry>
+            <Button   Text="Crear Hotel"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

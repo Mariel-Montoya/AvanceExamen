@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen2.Views.viewCrearHotel">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nombre Hotel" ></Label>
+            <Entry Text=""  Keyboard="Default" ></Entry>
+            <Label Text="Fecha de fundacion"></Label>
+            <DatePicker></DatePicker>
+            <Label Text="Ubicacion"></Label>
+            <Entry Text=""  Keyboard="Default" ></Entry>
+            
+            <Button  Text="Crear Hotel"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
